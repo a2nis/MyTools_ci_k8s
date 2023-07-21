@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('clone repository') {
       steps {
-        sh '''python3 -V'''
+        echo 'Checkout'
       }
     }
 
